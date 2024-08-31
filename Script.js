@@ -7,7 +7,7 @@ typed = new Typed(".text-change", {
 });
 
 function goToHomepage() {
-  window.location.href = "/index.html";
+  window.location.href = "./index.html";
 }
 function ContactMeClick() {
   window.location.href = "./contact.html";
