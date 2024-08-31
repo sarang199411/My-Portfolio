@@ -1,0 +1,68 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --primary-color: #f81b1b;
+  --dark-color: #373737;
+}
+
+.contact-form {
+  border: 2px solid var(--dark-color);
+  padding: 35px;
+  padding-top: 5px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .contact-form {
+    padding: 25px;
+  }
+}
+.contact-form .lead {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 30px;
+}
+.contact-form .form-control {
+  border-radius: 5px;
+  border: 1px solid var(--dark-color);
+  box-shadow: none;
+  padding: 0.574rem;
+}
+.contact-infos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-infos li {
+  display: flex;
+  position: relative;
+  padding-bottom: 35px;
+}
+.contact-infos li:last-child {
+  padding-bottom: 0;
+}
+.contact-infos .icon {
+  width: 55px;
+  height: 55px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-color);
+}
+.contact-infos h5 {
+  font-size: 14px;
+  margin: 0 0 5px;
+  color: rgba(226, 23, 23, 0.8);
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.contact-infos p {
+  margin: 0;
+  font-size: 20px;
+  color: green;
+  font-weight: 500;
+}

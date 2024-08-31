@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./Style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray">
+    <!-- Header Section -->
+    <header class="main-header">
+      <nav class="navbar header-nav navbar-expand-lg">
+        <div class="container">
+          <!-- Name And Logo -->
+          <a href="#" class="navbar-brand">
+            <h4 class="mb-0">
+              Sarang <span class="text-primary">Dharman</span>
+            </h4>
+          </a>
+
+          <!-- Menu -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-collapse-toggle"
+          >
+            <ul class="navbar-nav mx-auto">
+              <li>
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="nav-link">About Me</a>
+              </li>
+              <li>
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+
+              <li>
+                <a href="/about.html" class="nav-link">Skills</a>
+              </li>
+
+              <li>
+                <a href="/portfolio.html" class="nav-link">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Toggle Button -->
+          <div class="ms-auto d-none d-lg-block">
+            <a class="colored-btn" href="#contact" onclick="ContactMeClick()"
+              >Contact Now</a
+            >
+          </div>
+          <!-- Mobile Version -->
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse-toggle"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="home-section">
+        <div class="container">
+          <div class="anim-elements">
+            <div class="anim-element"><i class="bx bxl-html5"></i></div>
+            <div class="anim-element"><i class="bx bxl-css3"></i></div>
+            <div class="anim-element"><i class="bx bxl-react"></i></div>
+            <div class="anim-element"><i class="bx bxl-javascript"></i></div>
+            <div class="anim-element"><i class="bx bxl-mongodb"></i></div>
+          </div>
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6">
+              <div class="home-intro text-center text-lg-start">
+                <h6>Hi,My Name Is Sarang.</h6>
+                <h1>I'm a <span class="text-change"></span></h1>
+                <p>Based in Dubai,UAE</p>
+                <div class="home-sci">
+                  <a href="#"><i class="bx bxl-facebook"></i></a>
+                  <a href="#"><i class="bx bxl-instagram"></i></a>
+                  <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                  <a href="#"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <a href="#about" class="colored-btn mt-1"> About Me</a>
+              </div>
+            </div>
+            <div class="col-lg-5 pt-4 pt-lg-0">
+              <div class="home-image text-center">
+                <img
+                  src="Images/WhatsApp Image 2024-06-13 at 01.23.35_cec53eff.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6 text-center">
+              <img
+                src="./Images/bg.png"
+                class="img-thumbnail about-img"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-6 ps-lg-5">
+              <div class="about-text">
+                <h3 class="h1 mb-3 text-dark fw-semibold">
+                  I'am Experienced 6 years in CSA @ Enoc.
+                </h3>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.Minima
+                  beatae ipsa sapiente commodi maiores suscipit repudiandae
+                  animi? Dolorem repellat est vero quisquam quaerat explicabo
+                  tempore ipsa delectus, porro amet. Reprehenderit?
+                </p>
+                <div class="row pt-2">
+                  <div class="col-6 col-md-4">
+                    <h5 class="text-primary fw-semibold fs-4 mb-8">60+</h5>
+                    <span class="text-dark">Projects Completed</span>
+                  </div>
+                  <div class="col-6 col-md-4">
+                    <h5 class="text-primary fw-semibold fs-4 mb-8">1000+</h5>
+                    <span class="text-dark">Happy Customers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service SEction -->
+      <section
+        id="services"
+        class="section bg-gray"
+        style="
+          background-image: url(Images/images\ \(1\).jpeg);
+          background-repeat: no-repeat;
+          background-size: cover;">
+        <div class="container">
+          <div class="section-heading">
+            <h3>My Services</h3>
+          </div>
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div class="feature-box bg-1">
+                <div class="icon"><i class="bx bx-brush"></i></div>
+                <div class="content">
+                  <h5>Web Design</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Minima, dolor, ratione atque nulla, nemo maiores rem quidem
+                    doloremque quae. Eius, dolorem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-box bg-2">
+                <div class="icon"><i class="bx bx-desktop"></i></div>
+                <div class="content">
+                  <h5>Devolopment</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Minima, dolor, ratione atque nulla, nemo maiores rem quidem
+                    doloremque quae. Eius, dolorem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-box bg-3">
+                <div class="icon"><i class="bx bx-id-card"></i></div>
+                <div class="content">
+                  <h5>Sales</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Minima, dolor, ratione atque nulla, nemo maiores rem quidem
+                    doloremque quae. Eius, dolorem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-box bg-4">
+                <div class="icon"><i class="bx bxs-ship"></i></div>
+                <div class="content">
+                  <h5>Marine</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Minima, dolor, ratione atque nulla, nemo maiores rem quidem
+                    doloremque quae. Eius, dolorem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-box bg-5">
+                <div class="icon"><i class="bx bxs-bank"></i></div>
+                <div class="content">
+                  <h5>HDFC</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Minima, dolor, ratione atque nulla, nemo maiores rem quidem
+                    doloremque quae. Eius, dolorem!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-box bg-6">
+                <div class="icon"><i class="bx bxs-devices"></i></div>
+                <div class="content">
+                  <h5>VIVO</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Minima, dolor, ratione atque nulla, nemo maiores rem quidem
+                    doloremque quae. Eius, dolorem!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skill Section -->
+      <section id="skill" class="section">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-5">
+              <div class="section-heading text-start">
+                <h3>My Skills</h3>
+              </div>
+              <div class="skill-box">
+                <div class="row g-3">
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <div class="feature-box bg-1 feature-box-small">
+                      <div class="icon">
+                        <i class="bx bxl-html5"></i>
+                      </div>
+                      <h6>HTML</h6>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <div class="feature-box bg-2 feature-box-small">
+                      <div class="icon">
+                        <i class="bx bxl-css3"></i>
+                      </div>
+                      <h6>CSS</h6>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <div class="feature-box bg-3 feature-box-small">
+                      <div class="icon">
+                        <i class="bx bxl-javascript"></i>
+                      </div>
+                      <h6>JAVASCRIPT</h6>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <div class="feature-box bg-4 feature-box-small">
+                      <div class="icon">
+                        <i class="bx bxl-mongodb"></i>
+                      </div>
+                      <h6>MONGODB</h6>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <div class="feature-box bg-5 feature-box-small">
+                      <div class="icon">
+                        <i class="bx bxl-git"></i>
+                      </div>
+                      <h6>GIT</h6>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-6">
+                    <div class="feature-box bg-6 feature-box-small">
+                      <div class="icon">
+                        <i class="bx bxl-react"></i>
+                      </div>
+                      <h6>REACT.JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <img class="skill-img" src="./Images/9666850.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./Script.js"></script>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

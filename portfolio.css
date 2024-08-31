@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+  --primary-color: #f81b1b;
+  --dark-color: #373737;
+}
+
+.portfolio-box .portfolio-img {
+  position: relative;
+  border: 2px solid var(--dark-color);
+  box-shadow: 0 0 0 0 var(--dark-color);
+  transition: 0.3s;
+}
+.portfolio-box .portfolio-img:hover {
+  box-shadow: 5px 5px 0 0 var(--dark-color);
+}
+.portfolio-box .portfolio-text span {
+  display: inline-block;
+  padding: 8px 20px;
+  background: rgba(255, 101, 28, 0.2);
+  color: var(--dark-color);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 30px;
+  margin-bottom: 18px;
+}
+.portfolio-box .portfolio-text h4 {
+  color: var(--dark-color);
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+@media (ma-width: 767px) {
+  .portfolio-box .portfolio-text h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+.portfolio-box .portfolio-text .colored-btn {
+  font-size: 12px;
+}
