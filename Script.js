@@ -12,6 +12,9 @@ function goToHomepage() {
 function ContactMeClick() {
   window.location.href = "./contact.html";
 }
+function clickPortfolio(){
+     window.location.href = "./portfolio.html"
+}
 function nameValidate() {
   const nameValue = document.getElementById("name").value;
   const regex = /^[a-zA-Z]+$/;
